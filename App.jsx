@@ -1,21 +1,9 @@
 import React, { useState } from 'react';
-
-/**
- * Nota para el despliegue en Vercel:
- * Para evitar errores de resolución, utilizamos importaciones directas desde esm.sh.
- * Se ha corregido el formato de la URL para asegurar la compatibilidad.
- */
 import { 
-  Calendar, 
-  Dumbbell, 
-  Activity, 
-  ChevronRight, 
-  ChevronLeft, 
-  TrendingUp, 
-  AlertCircle, 
-  CheckCircle2, 
-  MapPin 
-} from 'https://esm.sh/lucide-react@0.344.0';
+  Calendar, Dumbbell, Activity, ChevronRight, 
+  ChevronLeft, TrendingUp, AlertCircle, CheckCircle2, MapPin 
+} from 'lucide-react';
+
 
 const App = () => {
   const [currentWeek, setCurrentWeek] = useState(0);
